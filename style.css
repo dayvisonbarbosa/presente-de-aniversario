@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+@font-face {
+    font-family: lover_2;
+    src: url(lover_2/Lover.ttf) format("truetype");
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+mark {
+    color: #A8120B;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bolder;
+}
+
+header {
+    padding: 20px;
+    background-image: linear-gradient(to right, #FB3A2B, #FEE6B9);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: #810110;
+    font-family: lover_2;
+}
+
+main#introducao {
+    padding-bottom: 10px;
+}
+
+main#introducao > h2 {
+    font-family: "Niconne", cursive;
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 15px;
+    color: #A8120B;   
+}
+
+p#remetente-destinatario {
+   margin: 10px;
+   line-height: 1.5em; 
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+section#principal {
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFEEC9;
+    border: 4px solid #EBC301;
+    border-radius: 5px;
+}
+
+section#principal > p {
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+
+#container {
+    background-color: rgb(245, 38, 73);
+    margin: 10px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+#container > iframe {
+   position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+   
+}
+
+footer {
+    padding: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #FB3A2B, #FEE6B9);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+footer > p {
+    text-align: center;
+    font-family: "Niconne", cursive;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #810110;
+}
